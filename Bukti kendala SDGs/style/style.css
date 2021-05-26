@@ -1,0 +1,34 @@
+.title {
+  margin: 40px;
+  display: flex;
+}
+h2 {
+  margin: auto;
+}
+.gambar {
+  display: flex;
+  justify-content: space-around;
+  margin: 30px;
+}
+.gambar .img1 img {
+  height: 80vh;
+  width: 50vh;
+  margin-right: 20px;
+}
+.gambar .img2 img {
+  height: 80vh;
+  width: 50vh;
+}
+
+@media (max-width: 400px) {
+  .gambar {
+    flex-direction: column;
+    justify-content: center;
+  }
+  .gambar .img1 {
+    margin: auto;
+  }
+  .gambar .img2 {
+    margin: auto;
+  }
+}
